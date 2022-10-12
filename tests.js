@@ -21,6 +21,16 @@ describe("sayHello()", function() {
    it("should return an empty string ", function(){
        expect(sayHello()).toBe("");
     });
+   it("Jane, Hello, Jane!",function(){
+       expect(sayHello("Jane")).toBe("Hello, Jane!");
+   })
+    it("Alex, Hello, Alex!",function(){
+        expect(sayHello("Alex")).toBe("Hello, Alex!");
+    })
+    it("Pat, Hello, Pat!", function(){
+        expect(sayHello("Pat")).toBe("Hello, Pat!");
+    })
+
 
 
 
