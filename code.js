@@ -4,7 +4,7 @@ function helloWorld() {
 }
 
 
-function sayHello(name){
- return typeof name === 'string' ? "Hello, " + name + "!" : "" ;
-}
-
+// function sayHello(name){
+//     if ()
+//  return typeof name === 'string' ? "Hello, " + name + "!" : "" ;
+// }

@@ -30,6 +30,9 @@ describe("sayHello()", function() {
     it("Pat, Hello, Pat!", function(){
         expect(sayHello("Pat")).toBe("Hello, Pat!");
     })
+    it("sayHello(), Hello, World!", function(){
+        expect(sayHello()).toBe("Hello, World!");
+    })
 
 
 
